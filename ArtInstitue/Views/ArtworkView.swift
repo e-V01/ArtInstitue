@@ -11,7 +11,7 @@ struct ArtworkView: View {
     let artwork: ArtworkModel
     var body: some View {
         NavigationLink {
-            // in progress
+            ArtworkDetailView(artwork: artwork)
         } label: {
             Text(artwork.title)
         }

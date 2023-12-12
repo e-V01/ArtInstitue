@@ -11,7 +11,7 @@ struct ArtworkDetailView: View {
     let artwork: ArtworkModel
     var body: some View {
         ScrollView {
-            //view
+            artworkImgView
             
             Text(artwork.title)
                 .font(.title)
@@ -29,6 +29,8 @@ struct ArtworkDetailView: View {
             } placeholder: {
                 ProgressView()
             }
+        } else {
+            Text("Images is not available")
         }
     }
 }

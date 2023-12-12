@@ -13,6 +13,8 @@
 		9E5257D82B285D8200EA0378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5257D72B285D8200EA0378 /* Preview Assets.xcassets */; };
 		9E5257E22B285DF800EA0378 /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5257E12B285DF800EA0378 /* ArtworkModel.swift */; };
 		9E5257E42B285F5600EA0378 /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5257E32B285F5600EA0378 /* ArtworkViewModel.swift */; };
+		9E5257E62B28678200EA0378 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5257E52B28678200EA0378 /* ArtworkView.swift */; };
+		9E5257E82B28686B00EA0378 /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5257E72B28686B00EA0378 /* ArtworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		9E5257D72B285D8200EA0378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E5257E12B285DF800EA0378 /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
 		9E5257E32B285F5600EA0378 /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
+		9E5257E52B28678200EA0378 /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+		9E5257E72B28686B00EA0378 /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				9E5257D22B285D8100EA0378 /* ContentView.swift */,
+				9E5257E52B28678200EA0378 /* ArtworkView.swift */,
+				9E5257E72B28686B00EA0378 /* ArtworkDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,8 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E5257D32B285D8100EA0378 /* ContentView.swift in Sources */,
+				9E5257E62B28678200EA0378 /* ArtworkView.swift in Sources */,
 				9E5257E22B285DF800EA0378 /* ArtworkModel.swift in Sources */,
 				9E5257D12B285D8100EA0378 /* ArtInstitueApp.swift in Sources */,
+				9E5257E82B28686B00EA0378 /* ArtworkDetailView.swift in Sources */,
 				9E5257E42B285F5600EA0378 /* ArtworkViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

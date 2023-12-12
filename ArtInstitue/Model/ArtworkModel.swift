@@ -15,4 +15,4 @@ struct ArtworkModel: Decodable, Identifiable {
     let imgId: String?
 }
 
-let previewArtwork = ArtworkModel(id: 16487, title: "The Bay of Marseille from L", imgId: "d4ca6321-8656-3d3f-a362-2ee297b2b813")
+let previewArtwork = ArtworkModel(id: 16487, title: "The Bay of Marseille from L' Estaque", imgId: "d4ca6321-8656-3d3f-a362-2ee297b2b813")

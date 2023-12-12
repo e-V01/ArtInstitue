@@ -22,7 +22,17 @@ class ArtworkViewModel: ObservableObject {
             .map(\.data)
             .decode(type: ArtworkDataResponse.self, decoder: jsonDecoder)
             .receive(on: DispatchQueue.main)
-            .sink { eceiveValue: <#T##((ArtworkDataResponse) -> Void)##((ArtworkDataResponse) -> Void)##(ArtworkDataResponse) -> Void#>)
+            .sink { completion in
+                switch completion {
+                case .failure(let error):
+                    print("Error: \(error)")
+                case .finished:
+                    print("It is finished")
+                }
+            } receiveValue: { [weak self] response in
+                self?.artworks = response.data
+            }
+            .store(in: &cancellables)
     }
     
 }
